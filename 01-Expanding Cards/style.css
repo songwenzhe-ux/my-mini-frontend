@@ -11,7 +11,7 @@ body {
 }
 .container {
     display:flex;
-    width:95vw;
+    width:95%;
 }
 .panel {
     color: rgb(6, 30, 52);
