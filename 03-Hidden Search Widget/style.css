@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    overflow:hidden;
+    margin:0;
+    height:100vh;
+    background-color: burlywood;
+}
+.search {
+    position:relative;
+    height:60px;
+}
+.search .input{
+    border:0;
+    background-color: #fff;;
+    width:50px;
+    height:50px;
+    padding:13px;
+    transition:width 0.3s ease-in;
+}
