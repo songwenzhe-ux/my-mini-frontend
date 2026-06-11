@@ -8,6 +8,6 @@
 
 ## 学んだこと
 - CSS
-  -
+  - display: flex、justify-content: center、align-items: center による中央配置と、cursor: pointer の使い方を学びました。
 - JavaScript
  - 
