@@ -9,23 +9,21 @@ body {
 
 .faq-container {
     max-width: 600px;
-    border:1px,solid,red;
     margin: 0 auto;
 }
 
 .faq {
-    border:1px,solid,red;
     position: relative;
     margin: 20px 5px;
     padding: 30px;
     background-color: transparent;
     border-radius: 10px;
+    border: 1px solid #9fa4a8;
 }
 
 h1 {
     margin: 40px 0 30px;
     text-align: center;
-    border:1px,solid,red;
 }
 
 .faq.active {
@@ -35,7 +33,6 @@ h1 {
 
 .faq-title {
     margin: 0 35px 0 0;
-    border:1px,solid,red;
 }
 
 .faq-text {
@@ -62,6 +59,20 @@ h1 {
     justify-content: center;
     gap:8px;
 }
+
+.faq.active::before,
+.faq.active::after {
+    content: '\f075';
+    font-family: 'Font Awesome 5 free';
+    color: #2ecc71;
+    font-size: 4rem;
+    position: absolute;
+    opacity: 0.2;
+    top: 60px;
+    left: 20px;
+    z-index: 0;
+}
+
 .faq-toggle:focus {
     outline: none;
 }
