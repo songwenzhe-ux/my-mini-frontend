@@ -6,7 +6,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid red;
     height:100vh;
     margin:0;
     overflow: hidden;
@@ -14,7 +13,6 @@ body {
     color:aliceblue;
 }
 .counter-container {
-    border:1px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,7 +23,6 @@ body {
 .counter {
     font-size:15px;
     margin-top:15px;
-
 }
 @media(max-width:500px){
     body{
